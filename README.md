@@ -98,61 +98,6 @@ procrastination_pattern_detector/
     └── report.py               # CSV report generation
 ```
 
-## 🚀 Installation & Setup
-
-Follow these steps to run FocusLens locally.
-
-### Prerequisites
-
-* Python 3.10 or later
-* Git
-* A code editor such as Visual Studio Code
-
-### Step 1: Clone the Repository
-
-Replace `YOUR_USERNAME` with your GitHub username after uploading the project.
-
-```bash
-git clone https://github.com/YOUR_USERNAME/procrastination-pattern-detector.git
-```
-
-### Step 2: Navigate to the Project Directory
-
-```bash
-cd procrastination-pattern-detector
-```
-
-### Step 3: Create a Virtual Environment
-
-**Windows:**
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-**macOS/Linux:**
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### Step 4: Install Dependencies
-
-```bash
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
-
-### Step 5: Run the Application
-
-```bash
-streamlit run app.py
-```
-
-Streamlit will display a local URL in the terminal. Open that URL in your browser to access the FocusLens dashboard.
-
 ## 📄 Dataset Format
 
 The application accepts CSV files containing the following required columns:
